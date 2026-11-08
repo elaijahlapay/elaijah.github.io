@@ -2,9 +2,9 @@ project:
   type: book
 
 book:
-  title: "Civil Procedure"
-  subtitle: Elon Law School
-  author: Eric M. Fink
+  title: "Elaijah Lapay's Personal Site"
+  subtitle: About Me
+  author: Elaijah Lapay
   date-format: MMMM YYYY
   license: "CC BY NC SA"
   page-navigation: true
@@ -17,22 +17,22 @@ book:
     tools:
       - icon: envelope
         menu:
-          - text: Email Prof. Fink
-            href: mailto:efink@elon.edu
+          - text: Email ELaijah!
+            href: mailto:elapay@elon.edu
       - icon: calendar
         menu:
           - text: Make an appointment
-            href: https://calendly.com/emfink/
+            href: mailto:elapay@elon.edu
       - icon: file-pdf
         menu: 
-          - text: "Casebook PDF"
+          - text: "Who Am I"
             href: CivProCasebook.pdf
       - icon: github
         menu:
           - text: Report an issue
-            href:  https://github.com/EricMFink/CivPro/issues/new
+            href:  https://github.com
           - text: View source code
-            href:  https://github.com/EricMFink/CivPro
+            href:  https://github.com
     collapse-level: 1
   chapters: 
     - text: Home
@@ -107,5 +107,4 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="https://www.emfink.net/img/favicon.ico">
         <meta name="robots" content="noarchive">
