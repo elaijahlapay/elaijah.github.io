@@ -1,0 +1,111 @@
+project:
+  type: book
+
+book:
+  title: "Civil Procedure"
+  subtitle: Elon Law School
+  author: Eric M. Fink
+  date-format: MMMM YYYY
+  license: "CC BY NC SA"
+  page-navigation: true
+  page-footer:
+      center: 
+        - text: "Last updated {{< now >}}"
+  sidebar:
+    style: "floating"
+    search: true
+    tools:
+      - icon: envelope
+        menu:
+          - text: Email Prof. Fink
+            href: mailto:efink@elon.edu
+      - icon: calendar
+        menu:
+          - text: Make an appointment
+            href: https://calendly.com/emfink/
+      - icon: file-pdf
+        menu: 
+          - text: "Casebook PDF"
+            href: CivProCasebook.pdf
+      - icon: github
+        menu:
+          - text: Report an issue
+            href:  https://github.com/EricMFink/CivPro/issues/new
+          - text: View source code
+            href:  https://github.com/EricMFink/CivPro
+    collapse-level: 1
+  chapters: 
+    - text: Home
+      href: index.qmd
+    - syllabus.qmd
+    - part: Casebook
+      chapters:
+      - 01-Front/frontispiece.qmd
+      - 01-Front/license.qmd
+      - 01-Front/epigraph.qmd
+      - 01-Front/preface.qmd
+      - 02-Main/chap1.qmd
+      - 02-Main/chap2.qmd
+      - 02-Main/chap3.qmd
+      - 02-Main/chap4.qmd
+      - 02-Main/chap5.qmd
+      - 02-Main/chap6.qmd
+      - 02-Main/chap7.qmd
+      - 02-Main/chap8.qmd
+      - 03-Back/ack.qmd
+      - 03-Back/colophon.qmd
+    - part: Visuals
+      chapters: 
+      - 04-Visuals/civil-litigation.qmd
+      - 04-Visuals/joinder.qmd
+      - 04-Visuals/personal-jurisdiction.qmd
+      - 04-Visuals/subject-matter-jurisdiction.qmd
+      - 04-Visuals/choice-of-law.qmd
+      - 04-Visuals/pleading.qmd
+      - 04-Visuals/preclusion.qmd
+      - 04-Visuals/summary-judgment.qmd
+    - part: Practice Exam Questions
+      chapters: 
+        - 05-Exams/exam1.qmd
+        - 05-Exams/exam2.qmd
+        - 05-Exams/exam3.qmd
+        - 05-Exams/exam4.qmd
+        - 05-Exams/exam5.qmd
+        - 05-Exams/exam6.qmd
+        - 05-Exams/exam7.qmd
+        - 05-Exams/exam8.qmd
+        - 05-Exams/exam9.qmd
+        - 05-Exams/exam10.qmd
+        - 05-Exams/sample-multiple-choice.qmd
+    - links.qmd
+
+bibliography: refs/CivPro.yaml
+csl: refs/indigobook-inline.csl
+citation-abbreviations: refs/abbreviations.json
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    resources:
+      - media/*
+    title-block-style: none
+    reference-location: margin
+    citation-location: document
+    toc: true
+    number-sections: true
+    number-depth: 3
+    toc-location: left
+    toc-depth: 4
+    callout-icon: false
+    lightbox: true
+    include-in-header:
+    - text: |
+        <link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://www.emfink.net/img/favicon.ico">
+        <meta name="robots" content="noarchive">
